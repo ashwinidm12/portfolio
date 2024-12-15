@@ -1,0 +1,58 @@
+[
+  {
+    "name": "SkyFreight",
+    "category": "frontend",
+    "description": "A flight cargo transport service with user-friendly design and responsive layout.",
+    "site": "https://skyfreight.com",
+    "github": "https://github.com/saam-rgb/skyfreight",
+    "image": "skyfreight.jpg"
+  },
+  {
+    "name": "Todo Flare Link",
+    "category": "frontend",
+    "description": "A to-do list application to help users manage their tasks effectively.",
+    "site": "https://todo-flare-link.com",
+    "github": "https://github.com/saam-rgb/todo-flare-link",
+    "image": "todo-flare-link.jpg"
+  },
+  {
+    "name": "News Ind",
+    "category": "frontend",
+    "description": "A news aggregation site to stay updated with the latest headlines.",
+    "site": "https://newsind.com",
+    "github": "https://github.com/saam-rgb/news-ind",
+    "image": "news-ind.jpg"
+  },
+  {
+    "name": "Trailed",
+    "category": "fullStack",
+    "description": "A full-stack e-commerce app with features like add to cart, user authentication via Firebase.",
+    "site": "https://trailed.com",
+    "github": "https://github.com/saam-rgb/trailed",
+    "image": "trailed.jpg"
+  },
+  {
+    "name": "MongoDB CRUD",
+    "category": "backend",
+    "description": "A backend project that demonstrates CRUD operations with MongoDB.",
+    "site": "",
+    "github": "https://github.com/saam-rgb/mongodb-crud",
+    "image": "mongodb-crud.jpg"
+  },
+  {
+    "name": "Figma Design 1",
+    "category": "uiUX",
+    "description": "UI/UX design for a mobile app interface using Figma.",
+    "site": "",
+    "github": "",
+    "image": "figma-design1.jpg"
+  },
+  {
+    "name": "Figma Design 2",
+    "category": "uiUX",
+    "description": "UI/UX design for a responsive website using Figma.",
+    "site": "",
+    "github": "",
+    "image": "figma-design2.jpg"
+  }
+]
