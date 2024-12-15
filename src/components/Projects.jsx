@@ -93,8 +93,9 @@ const Projects = () => {
               className="project-card bg-white shadow-lg rounded-lg overflow-hidden">
               <img
                 src={getImgUrl(project.image)}
-                alt={project.name}
+                alt={project.alt}
                 className="w-full h-48 object-cover"
+                loading="lazy"
               />
               <div className="p-4">
                 <h3 className="text-xl font-semibold">{project.name}</h3>
