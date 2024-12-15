@@ -7,7 +7,7 @@ const Contact = () => {
     email: "",
     message: "",
   });
-  const [status, setStatus] = useState(""); // To display form submission status
+  const [status, setStatus] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -30,7 +30,7 @@ const Contact = () => {
       .then(
         (result) => {
           setStatus("Message Sent Successfully!");
-          setFormData({ name: "", email: "", message: "" }); // Clear form after successful submission
+          setFormData({ name: "", email: "", message: "" });
         },
         (error) => {
           setStatus("Error Sending Message. Please try again.");
@@ -125,13 +125,15 @@ const Contact = () => {
           </h3>
           <p className="text-lg">
             Email:{" "}
-            <a href="mailto:saam.sheron@example.com" className="text-primary">
-              saam.sheron@example.com
+            <a href="mailto:saamsallvin@gmail.com" className="text-primary">
+              saamsallvin@gmail.com
             </a>
           </p>
           <p className="mt-4">
             <a
-              href="#resume"
+              href="/Saam-Sheron-Software-dev.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-lg text-primary underline hover:text-secondary transition duration-300">
               View My Resume
             </a>

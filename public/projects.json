@@ -1,58 +1,59 @@
 [
   {
+    "name": "Trailed",
+    "category": "fullStack",
+    "description": "A full-stack e-commerce app with features like add to cart, user authentication via Firebase.",
+    "site": "https://trailed-v2.vercel.app/",
+    "github": "https://github.com/saam-rgb/Trailed-v2",
+    "image": "trailed.png"
+  },
+  {
     "name": "SkyFreight",
     "category": "frontend",
     "description": "A flight cargo transport service with user-friendly design and responsive layout.",
-    "site": "https://skyfreight.com",
-    "github": "https://github.com/saam-rgb/skyfreight",
-    "image": "skyfreight.jpg"
+    "site": "https://sky-freight.vercel.app/",
+    "github": "https://github.com/saam-rgb/Sky-Freight",
+    "image": "skyfreight.png"
   },
   {
-    "name": "Todo Flare Link",
+    "name": "Task Hub",
     "category": "frontend",
     "description": "A to-do list application to help users manage their tasks effectively.",
-    "site": "https://todo-flare-link.com",
-    "github": "https://github.com/saam-rgb/todo-flare-link",
-    "image": "todo-flare-link.jpg"
+    "site": "https://task-hub-saam.vercel.app/",
+    "github": "https://github.com/saam-rgb/ToDo-FlareLink",
+    "image": "taskhub.png"
   },
   {
     "name": "News Ind",
     "category": "frontend",
     "description": "A news aggregation site to stay updated with the latest headlines.",
-    "site": "https://newsind.com",
-    "github": "https://github.com/saam-rgb/news-ind",
+    "site": "",
+    "github": "https://github.com/saam-rgb/NewsInd",
     "image": "news-ind.jpg"
   },
-  {
-    "name": "Trailed",
-    "category": "fullStack",
-    "description": "A full-stack e-commerce app with features like add to cart, user authentication via Firebase.",
-    "site": "https://trailed.com",
-    "github": "https://github.com/saam-rgb/trailed",
-    "image": "trailed.jpg"
-  },
+
   {
     "name": "MongoDB CRUD",
     "category": "backend",
     "description": "A backend project that demonstrates CRUD operations with MongoDB.",
     "site": "",
-    "github": "https://github.com/saam-rgb/mongodb-crud",
+    "github": "https://github.com/saam-rgb/MongoDB-Data-Display",
     "image": "mongodb-crud.jpg"
   },
   {
-    "name": "Figma Design 1",
+    "name": "Zoro.to",
     "category": "uiUX",
     "description": "UI/UX design for a mobile app interface using Figma.",
-    "site": "",
+    "site": "https://www.figma.com/proto/mKxES2Uumu51L7sVgOOdp1/Webd?page-id=1%3A398&node-id=1-400&viewport=454%2C997%2C0.36&t=JHVSjHan3mMLZaYV-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A400",
     "github": "",
-    "image": "figma-design1.jpg"
+    "image": "zoro.png"
   },
   {
-    "name": "Figma Design 2",
+    "name": "Turf Town",
     "category": "uiUX",
     "description": "UI/UX design for a responsive website using Figma.",
-    "site": "",
+    "site": "https://www.figma.com/proto/mKxES2Uumu51L7sVgOOdp1/Webd?page-id=0%3A1&node-id=1-42&viewport=449%2C321%2C0.06&t=aVEBzd1oTUY5kZQm-1&scaling=scale-down-width&content-scaling=fixed",
     "github": "",
-    "image": "figma-design2.jpg"
+    "image": "turf.png"
   }
 ]

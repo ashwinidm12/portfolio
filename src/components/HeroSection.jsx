@@ -1,20 +1,20 @@
 import React from "react";
-import HomeImage from "../assets/images/dp-bg-reg.png"; // Make sure to replace this with your actual image path
+import HomeImage from "../assets/images/dp-bg-reg.png";
 
 const HeroSection = () => {
   return (
     <section className="bg-[#F4F4F4] py-16 md:py-24">
       <div className="container mx-auto px-4 md:px-8">
-        <div className="flex flex-col md:flex-row items-center">
+        <div className="flex flex-col md:flex-row items-center gap-0 md:gap-8">
           {/* Left Section */}
-          <div className="md:w-1/2 text-center md:text-left">
-            <h1 className="text-4xl font-bold text-secondary mb-4">
+          <div className="md:w-1/2 text-center md:text-left ">
+            <h1 className="text-4xl font-bold text-secondary mb-4 md:mt-0 mt-6 ">
               Saam Sheron
             </h1>
             <p className="text-xl font-semibold text-[#606060] mb-4">
               Software Developer. UI Designer
             </p>
-            <p className="text-secondary mb-6">
+            <p className="text-secondary mb-6 text-justify">
               I believe great things can be achieved through the use of
               technology and research. But those are merely the tools. Behind
               the tools are the people. Teamwork and passion, those are what
@@ -22,8 +22,10 @@ const HeroSection = () => {
             </p>
             {/* Call to Action Button */}
             <a
-              href="#resume"
-              className="inline-block px-6 py-3 bg-primary text-white rounded-lg shadow-md hover:bg-[#FF3D30] transition-all"
+              href="/Saam-Sheron-Software-dev.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-6 py-3 bg-primary text-white rounded-lg shadow-md hover:bg-[#F4F4F4] hover:text-primary hover:border-primary border transition-all"
               title="Download Resume">
               Download Resume
             </a>

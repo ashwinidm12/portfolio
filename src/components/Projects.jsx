@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import getImgUrl from "../utils/getImgUrl";
 
 const Projects = () => {
   const [projectsData, setProjectsData] = useState([]);
@@ -11,7 +12,7 @@ const Projects = () => {
       .then((response) => response.json())
       .then((data) => {
         setProjectsData(data);
-        setFilteredProjects(data); // Initially show all projects
+        setFilteredProjects(data);
       })
       .catch((error) => console.error("Error fetching projects data:", error));
   }, []);
@@ -38,7 +39,7 @@ const Projects = () => {
         {/* Category Filter Buttons */}
         <div className="text-center mb-6">
           <button
-            className={`px-6 py-2 mx-2 ${
+            className={`px-6 py-2 mx-2 rounded ${
               selectedCategory === "all"
                 ? "bg-primary text-white"
                 : "bg-white text-primary"
@@ -47,7 +48,7 @@ const Projects = () => {
             All Projects
           </button>
           <button
-            className={`px-6 py-2 mx-2 ${
+            className={`px-6 py-2 mx-2 rounded ${
               selectedCategory === "frontend"
                 ? "bg-primary text-white"
                 : "bg-white text-primary"
@@ -56,7 +57,7 @@ const Projects = () => {
             Frontend
           </button>
           <button
-            className={`px-6 py-2 mx-2 ${
+            className={`px-6 py-2 mx-2 rounded ${
               selectedCategory === "fullStack"
                 ? "bg-primary text-white"
                 : "bg-white text-primary"
@@ -65,7 +66,7 @@ const Projects = () => {
             Full Stack
           </button>
           <button
-            className={`px-6 py-2 mx-2 ${
+            className={`px-6 py-2 mx-2 rounded ${
               selectedCategory === "backend"
                 ? "bg-primary text-white"
                 : "bg-white text-primary"
@@ -74,7 +75,7 @@ const Projects = () => {
             Backend
           </button>
           <button
-            className={`px-6 py-2 mx-2 ${
+            className={`px-6 py-2 mx-2 rounded ${
               selectedCategory === "uiUX"
                 ? "bg-primary text-white"
                 : "bg-white text-primary"
@@ -91,7 +92,7 @@ const Projects = () => {
               key={project.name}
               className="project-card bg-white shadow-lg rounded-lg overflow-hidden">
               <img
-                src={project.image}
+                src={getImgUrl(project.image)}
                 alt={project.name}
                 className="w-full h-48 object-cover"
               />

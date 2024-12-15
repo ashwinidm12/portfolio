@@ -6,7 +6,12 @@ import {
   FaReact,
   FaNodeJs,
   FaGitAlt,
-} from "react-icons/fa"; // React Icons for illustrative purposes
+} from "react-icons/fa";
+import firebaseImage from "../assets/images/firebase.png";
+import reduxImage from "../assets/images/redux.png";
+import figmaImage from "../assets/images/figma.webp";
+import expressImage from "../assets/images/express.png";
+import mongodbImage from "../assets/images/mongodb.png";
 
 const Skill = () => {
   return (
@@ -19,7 +24,9 @@ const Skill = () => {
           {/* HTML */}
           <div className="text-center">
             <FaHtml5 className="w-20 h-20 mx-auto mb-4 text-orange-600" />
-            <h3 className="text-lg font-semibold">HTML</h3>
+            <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
+              HTML
+            </h3>
             <p className="text-sm text-secondary">
               Building structured web content
             </p>
@@ -28,7 +35,9 @@ const Skill = () => {
           {/* CSS */}
           <div className="text-center">
             <FaCss3Alt className="w-20 h-20 mx-auto mb-4 text-blue-600" />
-            <h3 className="text-lg font-semibold">CSS</h3>
+            <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
+              CSS
+            </h3>
             <p className="text-sm text-secondary">
               Styling and layout for modern web designs
             </p>
@@ -37,7 +46,9 @@ const Skill = () => {
           {/* JavaScript */}
           <div className="text-center">
             <FaJs className="w-20 h-20 mx-auto mb-4 text-yellow-600" />
-            <h3 className="text-lg font-semibold">JavaScript</h3>
+            <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
+              JavaScript
+            </h3>
             <p className="text-sm text-secondary">
               Building interactive and dynamic web applications
             </p>
@@ -46,7 +57,9 @@ const Skill = () => {
           {/* React */}
           <div className="text-center">
             <FaReact className="w-20 h-20 mx-auto mb-4 text-blue-400" />
-            <h3 className="text-lg font-semibold">React</h3>
+            <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
+              React
+            </h3>
             <p className="text-sm text-secondary">
               Building interactive UIs with state management
             </p>
@@ -55,20 +68,56 @@ const Skill = () => {
           {/* Node.js */}
           <div className="text-center">
             <FaNodeJs className="w-20 h-20 mx-auto mb-4 text-green-600" />
-            <h3 className="text-lg font-semibold">Node.js</h3>
+            <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
+              Node.js
+            </h3>
             <p className="text-sm text-secondary">
               Building scalable server-side applications
+            </p>
+          </div>
+
+          {/* Express */}
+          <div className="text-center">
+            <img
+              src={expressImage}
+              alt="Firebase"
+              className="w-20 h-20 mx-auto mb-4"
+            />
+            <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
+              Express.js
+            </h3>
+            <p className="text-sm text-secondary">
+              Lightweight web framework for building robust APIs and
+              applications.
+            </p>
+          </div>
+
+          {/* MongoDB */}
+          <div className="text-center">
+            <img
+              src={mongodbImage}
+              alt="Firebase"
+              className="w-20 h-20 mx-auto mb-4"
+            />
+            <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
+              MongoDB
+            </h3>
+            <p className="text-sm text-secondary">
+              NoSQL database for storing and managing high-volume data
+              efficiently.
             </p>
           </div>
 
           {/* Firebase */}
           <div className="text-center">
             <img
-              src="path_to_firebase_logo.png"
+              src={firebaseImage}
               alt="Firebase"
               className="w-20 h-20 mx-auto mb-4"
             />
-            <h3 className="text-lg font-semibold">Firebase</h3>
+            <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
+              Firebase
+            </h3>
             <p className="text-sm text-secondary">
               Backend-as-a-Service for fast app development
             </p>
@@ -77,11 +126,13 @@ const Skill = () => {
           {/* Redux */}
           <div className="text-center">
             <img
-              src="path_to_redux_logo.png"
+              src={reduxImage}
               alt="Redux"
               className="w-20 h-20 mx-auto mb-4"
             />
-            <h3 className="text-lg font-semibold">Redux</h3>
+            <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
+              Redux
+            </h3>
             <p className="text-sm text-secondary">
               State management for React applications
             </p>
@@ -90,7 +141,9 @@ const Skill = () => {
           {/* Git */}
           <div className="text-center">
             <FaGitAlt className="w-20 h-20 mx-auto mb-4 text-orange-500" />
-            <h3 className="text-lg font-semibold">Git</h3>
+            <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
+              Git
+            </h3>
             <p className="text-sm text-secondary">
               Version control for collaborative software development
             </p>
@@ -99,26 +152,15 @@ const Skill = () => {
           {/* Figma */}
           <div className="text-center">
             <img
-              src="path_to_figma_logo.png"
+              src={figmaImage}
               alt="Figma"
               className="w-20 h-20 mx-auto mb-4"
             />
-            <h3 className="text-lg font-semibold">Figma</h3>
+            <h3 className="text-lg font-semibold hover:text-primary cursor-pointer">
+              Figma
+            </h3>
             <p className="text-sm text-secondary">
               UI/UX design and prototyping tool
-            </p>
-          </div>
-
-          {/* REST APIs */}
-          <div className="text-center">
-            <img
-              src="path_to_rest_api_logo.png"
-              alt="REST API"
-              className="w-20 h-20 mx-auto mb-4"
-            />
-            <h3 className="text-lg font-semibold">REST API</h3>
-            <p className="text-sm text-secondary">
-              Building robust API services for web applications
             </p>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import React from "react";
-import AboutImage from "../assets/images/dp-kanch.jpg"; // Example profile image
+import AboutImage from "../assets/images/dp-kanch.jpg";
+import { FaDev, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Resume = () => {
   return (
@@ -8,7 +9,7 @@ const Resume = () => {
         <h2 className="text-4xl font-bold text-primary mb-6 text-center">
           My Resume
         </h2>
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
+        <div className="flex flex-col-reverse md:flex-row justify-between items-start md:items-center">
           {/* Left Column */}
           <div className="w-full md:w-1/2 md:mr-8">
             <div className="bg-white p-6 rounded-lg shadow-lg">
@@ -22,6 +23,7 @@ const Resume = () => {
                 <li>Express.js</li>
                 <li>Firebase</li>
                 <li>Redux</li>
+                <li>REST API</li>
                 <li>HTML, CSS, JavaScript</li>
                 <li>Git</li>
               </ul>
@@ -35,17 +37,10 @@ const Resume = () => {
               <h3 className="text-2xl font-semibold text-secondary mt-8 mb-4 text-center">
                 Certification
               </h3>
-              <p>
-                Completed{" "}
-                <a
-                  href="https://webdschool.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary">
-                  Web Designing and Development
-                </a>{" "}
-                course from Web D School in November 2024.
+              <p className="font-medium">
+                Web Designing and Development (MERN Stack)
               </p>
+              <p> Certified from Web D School in (Nov 2024)</p>
 
               <h3 className="text-2xl font-semibold text-secondary mt-8 mb-4 text-center">
                 Projects
@@ -53,7 +48,8 @@ const Resume = () => {
               <ul className="list-disc pl-6 space-y-2">
                 <li>
                   <a
-                    href="https://github.com/saam-rgb/Trailed"
+                    className="text-primary"
+                    href="https://github.com/saam-rgb/Trailed-v2"
                     target="_blank"
                     rel="noopener noreferrer">
                     Trailed
@@ -63,7 +59,8 @@ const Resume = () => {
                 </li>
                 <li>
                   <a
-                    href="https://github.com/saam-rgb/SkyFreight"
+                    className="text-primary"
+                    href="https://github.com/saam-rgb/Sky-Freight"
                     target="_blank"
                     rel="noopener noreferrer">
                     SkyFreight
@@ -73,7 +70,8 @@ const Resume = () => {
                 </li>
                 <li>
                   <a
-                    href="https://github.com/saam-rgb/Todo-Flarelist"
+                    className="text-primary"
+                    href="https://github.com/saam-rgb/ToDo-FlareLink"
                     target="_blank"
                     rel="noopener noreferrer">
                     Todo Flarelist
@@ -84,7 +82,8 @@ const Resume = () => {
                   <a
                     href="https://github.com/saam-rgb/Mowli-Bakery"
                     target="_blank"
-                    rel="noopener noreferrer">
+                    rel="noopener noreferrer"
+                    className="text-primary">
                     Mowli Bakery
                   </a>{" "}
                   - A bakery e-commerce app built with ReactJS and Firebase
@@ -94,11 +93,11 @@ const Resume = () => {
           </div>
 
           {/* Right Column */}
-          <div className="w-full md:w-1/2 mt-8 md:mt-0 text-center">
+          <div className="w-full md:w-1/2 mt-8 md:mt-0 text-center sm:mb-0 mb-4">
             <img
               src={AboutImage}
               alt="Saam Sheron"
-              className="rounded-full w-48 h-48 mx-auto mb-6 border-4 border-primary"
+              className="rounded-full object-cover w-48 h-48 mx-auto mb-6 border-4 border-primary"
             />
             <p className="text-xl font-medium">Saam Sheron</p>
             <p className="text-lg text-secondary">
@@ -107,8 +106,35 @@ const Resume = () => {
             <a
               href="mailto:saam.sheron@example.com"
               className="text-lg text-primary mt-4 block">
-              saam.sheron@example.com
+              saamsallvin@gmail.com
             </a>
+            {/* Social Links */}
+            <div className="flex justify-center space-x-6 mt-6">
+              <a
+                href="https://www.linkedin.com/in/saam-sheron"
+                target="_blank"
+                rel="noopener noreferrer">
+                <FaLinkedin className="text-2xl text-[#0077B5] hover:text-secondary" />
+              </a>
+              <a
+                href="https://github.com/saam-rgb"
+                target="_blank"
+                rel="noopener noreferrer">
+                <FaGithub className="text-2xl text-[#333] hover:text-secondary" />
+              </a>
+              <a
+                href="https://www.instagram.com/saam_sheron"
+                target="_blank"
+                rel="noopener noreferrer">
+                <FaInstagram className="text-2xl text-[#E4405F] hover:text-secondary" />
+              </a>
+              <a
+                href="https://dev.to/saamsheron"
+                target="_blank"
+                rel="noopener noreferrer">
+                <FaDev className="text-2xl  hover:text-secondary" />
+              </a>
+            </div>
           </div>
         </div>
       </div>

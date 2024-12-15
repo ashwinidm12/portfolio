@@ -29,7 +29,14 @@ const Footer = () => {
         <p className="text-lg">
           &copy; {new Date().getFullYear()} Saam Sheron. All rights reserved.
         </p>
-        <p className="text-sm">Designed & Developed by Saam Sheron</p>
+        <p className="text-sm">
+          Designed & Developed by{" "}
+          <a
+            href="https://www.linkedin.com/in/saam-sheron"
+            className="hover:text-black underline underline-offset-2">
+            Saam Sheron
+          </a>
+        </p>
       </div>
     </footer>
   );
