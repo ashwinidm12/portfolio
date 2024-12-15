@@ -47,11 +47,12 @@ const About = () => {
                 I enjoy contributing to open-source projects and always seek
                 opportunities to learn and grow as a developer.
               </p>
-              <p className="text-justify">
-                When I’m not coding, I’m exploring the latest trends in web
-                development and improving my skills to stay ahead of the curve.
-                I'm always open to working on new and exciting projects that
-                push the boundaries of what technology can achieve.
+              <p className="text-justify ">
+                When I'm not developing web applications, you’ll find me
+                fine-tuning my motorcycle, exploring off-road trails, or
+                organizing spaces to create a productive environment. I also
+                enjoy occasional chess games with good company and dabble in SEO
+                and UI/UX research to stay informed on modern digital trends.
               </p>
             </div>
           </div>

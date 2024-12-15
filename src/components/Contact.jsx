@@ -1,7 +1,8 @@
-import React, { useState } from "react";
-import emailjs from "emailjs-com";
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -22,18 +23,21 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "your_service_id", // Service ID from EmailJS
-        "your_template_id", // Template ID from EmailJS
-        e.target,
-        "your_user_id" // User ID from EmailJS
+        "service_ec5y0ts", // Service ID from EmailJS
+        "template_7hksf65", // Template ID from EmailJS
+        form.current,
+        {
+          publicKey: "Y-hkeCmmRiuid1AiS",
+        }
       )
       .then(
         (result) => {
           setStatus("Message Sent Successfully!");
+
           setFormData({ name: "", email: "", message: "" });
         },
         (error) => {
-          setStatus("Error Sending Message. Please try again.");
+          setStatus("Error Sending Message. Please try again.", error);
         }
       );
   };
@@ -52,7 +56,7 @@ const Contact = () => {
         {/* Contact Form */}
         <div className="flex justify-center">
           <div className="w-full md:w-1/2 bg-white p-8 rounded-lg shadow-lg">
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} ref={form}>
               <div className="mb-4">
                 <label
                   htmlFor="name"
