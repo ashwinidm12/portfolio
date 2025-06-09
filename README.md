@@ -1,9 +1,9 @@
-# 🚀 Saam Sheron Portfolio
+# 🚀 Ashwini D M Portfolio
 
 Welcome to my portfolio repository! This project showcases my work as a **MERN Stack Developer** and highlights my projects, skills, and professional achievements.
 
 ## 🖥️ Live Portfolio  
-Check out the live version here: [**Saam Sheron Portfolio**](https://saam-sheron.vercel.app/)
+Check out the live version here: [**Ashwini D M Portfolio**](http://localhost:5173/fullstock31/)
 
 ---
 
@@ -40,19 +40,26 @@ This is a **single-page portfolio** website built using modern web technologies.
 ---
 
 ## 📂 Folder Structure
+
+
+
+
 ```
 src/
-│── assets/          # Images and icons
-│── components/      # Reusable components (Navbar, Footer, ProjectCards, etc.)
-│── pages/           # Section components (Home, About, Projects, Contact, Resume)
-│── App.jsx          # Main application file
-│── main.jsx         # React entry point
+│── assets/ # Images and icons
+│── components/ # Reusable components (Navbar, Footer, ProjectCards, etc.)
+│── pages/ # Section components (Home, About, Projects, Contact, Resume)
+│── App.jsx # Main application file
+│── main.jsx # React entry point
 │── tailwind.config.js # Tailwind CSS configuration
-│── index.html       # Main HTML file
+│── index.html # Main HTML file
 public/
-│── data/            # JSON files (projects.json, etc.)
-│── images/          # Static assets like images
+│── data/ # JSON files (projects.json, etc.)
+│── images/ # Static assets like images
+
+
 ```
+
 
 ---
 
@@ -62,6 +69,8 @@ public/
 - **Descriptive Alt Attributes**: Added for all images, such as:  
   ```html
   <img src="skyfreight.png" alt="SkyFreight - Air Cargo Transport Website" />
+
+
   ```
 - **Fast Performance**: Optimized build with Vite for better Lighthouse scores.  
 
@@ -69,21 +78,25 @@ public/
 
 ## 📧 Contact Me
 Feel free to reach out:  
-- **Portfolio**: [saam-sheron.vercel.app](https://saam-sheron.vercel.app/)  
-- **Email**: saamsallvin@gmail.com  
-- **LinkedIn**: [linkedin.com/in/saam-sheron](https://linkedin.com/in/saam-sheron)  
-- **GitHub**: [github.com/saam-rgb](https://github.com/saam-rgb)  
+- **Portfolio**: [DP-BG-REM.png](DP-BG-REM.png)  
+- **Email**: dmashwini40@gmail.com  
+- **LinkedIn**: [https://www.linkedin.com/in/ashwini-d-m-526a94267](https://www.linkedin.com/in/ashwini-d-m-526a94267)  
+
+- **GitHub**: [https://github.com/ashwinidm12/fullstock31](https://github.com/ashwinidm12/fullstock31)  
+
+
 
 ---
 
 ## 🚀 How to Run Locally
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/saam-rgb/saam-sheron.git
+   git clone https://github.com/ashwinidm12/fullstock31
+
    ```
 2. Navigate to the project folder:  
    ```bash
-   cd saam-sheron
+   cd ashwini-portfolio
    ```
 3. Install dependencies:  
    ```bash
@@ -95,14 +108,21 @@ Feel free to reach out:
    ```
 5. Open your browser and visit:  
    ```
-   http://localhost:5173
+http://localhost:5173/fullstock31/
    ```
 
 ---
 
 ## 📝 License
-This project is **open-source** and available under the MIT License.
+This project is **open-source** and available under the MCE License.
 
 ---
 
-### 🎨 Designed & Developed by [**Saam Sheron**](https://linkedin.com/in/saam-sheron)  
+### 🎨 Designed & Developed by [**AShwini D M**](https://www.linkedin.com/in/ashwini-d-m-526a94267)  
+
+Just paste this fully into your `README.md` file and then run:
+
+```bash
+git add README.md
+git rebase --continue
+
