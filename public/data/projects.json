@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Notesync",
+    "category": "fullStack",
+    "description": "A full-stack e-learning website with features like notes,PYQ's,Quora,Amptitude, user authentication via Firebase.",
+    "site": "#",
+    "github": "https://github.com/ashwinidm12/fullstock31",
+    "image": "trailed.png",
+    "alt": "Trailed - Full-stack e-learning website with Access the downloadable pdf's features and Firebase authentication"
+  },
+  {
+    "name": "Personal-Portfolio",
+    "category": "frontend",
+    "description": "A full-stack personal-portfolio website with features like downloadable resume and personal information.",
+    "site": "#",
+    "github": "https://github.com/ashwinidm12/fullstock31",
+    "image": "skyfreight.png",
+    "alt": "SkyFreight - Flight cargo transport service with responsive design"
+  },
+  {
+    "name": "Task Hub",
+    "category": "frontend",
+    "description": "A to-do list application to help users manage their tasks effectively.",
+    "site": "#",
+    "github": "https://github.com/ashwinidm12/fullstock31",
+    "image": "taskhub.png",
+    "alt": "Task Hub - To-do list application for task management"
+  },
+  {
+    "name": "News Ind",
+    "category": "frontend",
+    "description": "A news aggregation site to stay updated with the latest headlines.",
+    "site": "#",
+    "github": "https://github.com/ashwinidm12/fullstock31",
+    "image": "newsind.png",
+    "alt": "News Ind - News aggregation website for the latest headlines"
+  },
+  {
+    "name": "MongoDB CRUD",
+    "category": "backend",
+    "description": "A backend project that demonstrates doc download operations with MongoDB.",
+    "site": "",
+    "github": "",
+    "image": "mongocrud.png",
+    "alt": "MongoDB doc - Backend project demonstrating doc download operations with MongoDB"
+  },
+  {
+    "name": "MCE-Website",
+    "category": "uiUX",
+    "description": "UI/UX design for a mobile app interface using Figma.",
+    "site": "https://www.figma.com/design/Maml3uHB2JWY5jkVtk4j5R/Untitled?node-id=0-1&p=f",
+    "github": "",
+    "image": "turf.png",
+    "alt": "MCE-Website - UI/UX design for mobile app interface using Figma"
+  },
+  {
+    "name": "MCE",
+    "category": "uiUX",
+    "description": "UI/UX design for a responsive website using Figma.",
+    "site": "https://www.figma.com/design/Maml3uHB2JWY5jkVtk4j5R/Untitled?node-id=0-1&p=f",
+    "github": "https://github.com/ashwinidm12/fullstock31",
+    "image": "turf.png",
+    "alt": "Turf Town - UI/UX design for responsive website using Figma"
+  }
+]

@@ -9,20 +9,20 @@ const HeroSection = () => {
           {/* Left Section */}
           <div className="md:w-1/2 text-center md:text-left ">
             <h1 className="text-4xl font-bold text-secondary mb-4 md:mt-0 mt-6 ">
-              Saam Sheron
+              Ashwini D M
             </h1>
             <p className="text-xl font-semibold text-[#606060] mb-4">
-              Software Developer. UI Designer
+              Student at Malnad College Of Engineering
             </p>
             <p className="text-secondary mb-6 text-justify">
-              I believe great things can be achieved through the use of
-              technology and research. But those are merely the tools. Behind
-              the tools are the people. Teamwork and passion, those are what
-              matter the most.
+              I believe technology and research help us solve many problems,
+              but they are just tools. What truly matters are the people behind them, 
+              working together with passion and care. Teamwork and dedication bring ideas to life and create great results. 
+              Without people’s hard work, even the best tools can’t make a difference.
             </p>
             {/* Call to Action Button */}
             <a
-              href="/Saam-Sheron-Software-dev.pdf"
+              href="ASHWINI D M-CSE(f).pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-6 py-3 bg-primary text-white rounded-lg shadow-md hover:bg-[#F4F4F4] hover:text-primary hover:border-primary border transition-all"
@@ -35,9 +35,9 @@ const HeroSection = () => {
           <div className="md:w-1/2 mt-8 md:mt-0">
             <img
               src={HomeImage}
-              alt="Saam Sheron - Software Developer"
+              alt="Ashwini D m - Software Developer"
               className="w-full h-auto rounded-lg shadow-lg"
-              title="Saam Sheron"
+              title="Ashwini D M"
             />
           </div>
         </div>

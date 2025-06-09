@@ -7,8 +7,7 @@ const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState("all");
 
   useEffect(() => {
-    // Fetch the projects data from the JSON file
-    fetch("/projects.json")
+    fetch("/data/projects.json")
       .then((response) => response.json())
       .then((data) => {
         setProjectsData(data);
@@ -17,7 +16,6 @@ const Projects = () => {
       .catch((error) => console.error("Error fetching projects data:", error));
   }, []);
 
-  // Filter projects based on selected category
   const filterProjects = (category) => {
     setSelectedCategory(category);
     if (category === "all") {
@@ -36,61 +34,28 @@ const Projects = () => {
           My Projects
         </h2>
 
-        {/* Category Filter Buttons */}
         <div className="text-center mb-6">
-          <button
-            className={`px-6 py-2 mx-2 rounded ${
-              selectedCategory === "all"
-                ? "bg-primary text-white"
-                : "bg-white text-primary"
-            }`}
-            onClick={() => filterProjects("all")}>
-            All Projects
-          </button>
-          <button
-            className={`px-6 py-2 mx-2 rounded ${
-              selectedCategory === "frontend"
-                ? "bg-primary text-white"
-                : "bg-white text-primary"
-            }`}
-            onClick={() => filterProjects("frontend")}>
-            Frontend
-          </button>
-          <button
-            className={`px-6 py-2 mx-2 rounded ${
-              selectedCategory === "fullStack"
-                ? "bg-primary text-white"
-                : "bg-white text-primary"
-            }`}
-            onClick={() => filterProjects("fullStack")}>
-            Full Stack
-          </button>
-          <button
-            className={`px-6 py-2 mx-2 rounded ${
-              selectedCategory === "backend"
-                ? "bg-primary text-white"
-                : "bg-white text-primary"
-            }`}
-            onClick={() => filterProjects("backend")}>
-            Backend
-          </button>
-          <button
-            className={`px-6 py-2 mx-2 rounded ${
-              selectedCategory === "uiUX"
-                ? "bg-primary text-white"
-                : "bg-white text-primary"
-            }`}
-            onClick={() => filterProjects("uiUX")}>
-            UI/UX
-          </button>
+          {["all", "frontend", "fullStack", "backend", "uiUX"].map((cat) => (
+            <button
+              key={cat}
+              className={`px-6 py-2 mx-2 rounded ${
+                selectedCategory === cat
+                  ? "bg-primary text-white"
+                  : "bg-white text-primary"
+              }`}
+              onClick={() => filterProjects(cat)}
+            >
+              {cat === "all" ? "All Projects" : cat}
+            </button>
+          ))}
         </div>
 
-        {/* Projects */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {filteredProjects.map((project) => (
             <div
               key={project.name}
-              className="project-card bg-white shadow-lg rounded-lg overflow-hidden">
+              className="project-card bg-white shadow-lg rounded-lg overflow-hidden"
+            >
               <img
                 src={getImgUrl(project.image)}
                 alt={project.alt}
@@ -108,7 +73,8 @@ const Projects = () => {
                       href={project.site}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-primary font-semibold">
+                      className="text-primary font-semibold"
+                    >
                       Live Demo
                     </a>
                   )}
@@ -116,7 +82,8 @@ const Projects = () => {
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-primary font-semibold">
+                    className="text-primary font-semibold"
+                  >
                     GitHub
                   </a>
                 </div>

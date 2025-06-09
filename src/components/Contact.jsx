@@ -129,13 +129,13 @@ const Contact = () => {
           </h3>
           <p className="text-lg">
             Email:{" "}
-            <a href="mailto:saamsallvin@gmail.com" className="text-primary">
-              saamsallvin@gmail.com
+            <a href="mailto:dmashwini40@gmail.com" className="text-primary">
+              dmashwini40@gmail.com
             </a>
           </p>
           <p className="mt-4">
             <a
-              href="/Saam-Sheron-Software-dev.pdf"
+              href="ASHWINI D M-CSE(f).pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="text-lg text-primary underline hover:text-secondary transition duration-300">

@@ -14,7 +14,7 @@ const About = () => {
             <div className="rounded-full overflow-hidden shadow-xl">
               <img
                 src={AboutImage}
-                alt="Saam Sheron - MERN Stack Developer"
+                alt="Ashwini D M - Student of MCE"
                 className="w-48 rounded-full h-48 object-cover border-4 border-primary"
               />
             </div>
@@ -24,11 +24,11 @@ const About = () => {
           <div className="md:w-2/3 md:px-8">
             <div className="text-[#333333]">
               <p className="mb-4 text-justify">
-                Hi, I'm <strong>Saam Sheron</strong>, a passionate{" "}
-                <strong>MERN Stack Developer</strong> with expertise in{" "}
+                Hi, I'm <strong>Ashwini D M</strong>, a passionate{" "}
+                <strong>Computer Science and Engineering Student</strong> with expertise in{" "}
                 <strong>React</strong>, <strong>Node.js</strong>,{" "}
-                <strong>MongoDB</strong>, and <strong>Express.js</strong>. From
-                creating my first Flutter music app to developing full-stack web
+                <strong>MongoDB</strong>, and <strong>Express.js</strong>. i am 
+                creating my first personal portfolio  to developing full-stack web
                 applications, I've always been excited about leveraging
                 technology to create impactful solutions.
               </p>
@@ -41,9 +41,9 @@ const About = () => {
                 maintainable code.
               </p>
               <p className="mb-4 text-justify">
-                Currently, I am working as a part of a collaborative team on
-                various projects, including an{" "}
-                <strong>e-commerce platform</strong> built using the MERN stack.
+                Currently, I am 6th sem student, as a part of a collaborative team 
+                projects, including an{" "}
+                <strong>e-learning platform</strong> built using the MERN stack.
                 I enjoy contributing to open-source projects and always seek
                 opportunities to learn and grow as a developer.
               </p>
@@ -51,7 +51,7 @@ const About = () => {
                 When I'm not developing web applications, you’ll find me
                 fine-tuning my motorcycle, exploring off-road trails, or
                 organizing spaces to create a productive environment. I also
-                enjoy occasional chess games with good company and dabble in SEO
+                enjoy occasional pencil sckeching ,with good company and dabble in SEO
                 and UI/UX research to stay informed on modern digital trends.
               </p>
             </div>

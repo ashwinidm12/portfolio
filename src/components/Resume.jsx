@@ -25,23 +25,29 @@ const Resume = () => {
                 <li>Redux</li>
                 <li>REST API</li>
                 <li>HTML, CSS, JavaScript</li>
+                <li>c-programing,DSA</li>
+                <li>java(oopj)</li>
+                <li>figma</li>
                 <li>Git</li>
               </ul>
 
               <h3 className="text-2xl font-semibold text-secondary mt-8 mb-4 text-center">
                 Education
               </h3>
-              <p className="font-medium">Bachelors in Computer Application</p>
-              <p>Graduated from Loyola College (2022)</p>
-
+              <p className="font-medium">Bachelors Of Engineering</p>
+              <p>Computer Science and Engineering</p>
+              <p>Student at Malnad College of Engineering,Hassan</p>
               <h3 className="text-2xl font-semibold text-secondary mt-8 mb-4 text-center">
                 Certification
               </h3>
               <p className="font-medium">
-                Web Designing and Development (MERN Stack)
+                Prompt Engineering for ChatGPT
               </p>
-              <p> Certified from Web D School in (Nov 2024)</p>
-
+              <p>Great Learning Academy(2024)</p>
+              <p>Soft Skill Development</p>
+              <p>NPTEL(2024)</p>
+              <p>Software Testing</p>
+              <p>NPTEL(2024)</p>
               <h3 className="text-2xl font-semibold text-secondary mt-8 mb-4 text-center">
                 Projects
               </h3>
@@ -49,44 +55,42 @@ const Resume = () => {
                 <li>
                   <a
                     className="text-primary"
-                    href="https://github.com/saam-rgb/Trailed-v2"
+                    href="#"
                     target="_blank"
                     rel="noopener noreferrer">
-                    Trailed
+                    NoteSync
                   </a>{" "}
-                  - A task management app built with ReactJS, Node.js, MongoDB,
-                  and Express
+                  - A full-stack e-learning website with features like notes,PYQ's,Quora,Amptitude.
                 </li>
                 <li>
                   <a
                     className="text-primary"
-                    href="https://github.com/saam-rgb/Sky-Freight"
+                    href="#"
                     target="_blank"
                     rel="noopener noreferrer">
-                    SkyFreight
+                    Personal-Portfolio
                   </a>{" "}
-                  - A responsive single-page website for an air cargo company
-                  built with ReactJS and Bootstrap
+                  - A full-stack personal-portfolio website with features like downloadable resume and personal information.
                 </li>
                 <li>
                   <a
                     className="text-primary"
-                    href="https://github.com/saam-rgb/ToDo-FlareLink"
+                    href="#"
                     target="_blank"
                     rel="noopener noreferrer">
-                    Todo Flarelist
+                    sign Language to Text generator
                   </a>{" "}
-                  - A to-do list application built with ReactJS and Tailwind CSS
+                  - Real time sign language to text conversion with emergency assistance
                 </li>
                 <li>
                   <a
-                    href="https://github.com/saam-rgb/Mowli-Bakery"
+                    href="https://www.linkedin.com/in/ashwini-d-m-526a94267"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary">
-                    Mowli Bakery
+                   Build a free website with WordPress
                   </a>{" "}
-                  - A bakery e-commerce app built with ReactJS and Firebase
+                  - On online non-credit project authorized by Coursera Project Network and offered through coursera
                 </li>
               </ul>
             </div>
@@ -99,37 +103,37 @@ const Resume = () => {
               alt="Saam Sheron"
               className="rounded-full object-cover w-48 h-48 mx-auto mb-6 border-4 border-primary"
             />
-            <p className="text-xl font-medium">Saam Sheron</p>
+            <p className="text-xl font-medium">Ashwini D M</p>
             <p className="text-lg text-secondary">
-              MERN Stack Developer | Software Developer
+              MERN Stack Developer | Software Developer 
             </p>
             <a
-              href="mailto:saam.sheron@example.com"
+              href="mailto:dmashwini40@example.com"
               className="text-lg text-primary mt-4 block">
-              saamsallvin@gmail.com
+              dmashwini40@gmail.com
             </a>
             {/* Social Links */}
             <div className="flex justify-center space-x-6 mt-6">
               <a
-                href="https://www.linkedin.com/in/saam-sheron"
+                href="https://www.linkedin.com/in/ashwini-d-m-526a94267"
                 target="_blank"
                 rel="noopener noreferrer">
                 <FaLinkedin className="text-2xl text-[#0077B5] hover:text-secondary" />
               </a>
               <a
-                href="https://github.com/saam-rgb"
+                href="https://github.com/ashwinidm12/ashwinidm12"
                 target="_blank"
                 rel="noopener noreferrer">
                 <FaGithub className="text-2xl text-[#333] hover:text-secondary" />
               </a>
               <a
-                href="https://www.instagram.com/saam_sheron"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer">
                 <FaInstagram className="text-2xl text-[#E4405F] hover:text-secondary" />
               </a>
               <a
-                href="https://dev.to/saamsheron"
+                href="h#"
                 target="_blank"
                 rel="noopener noreferrer">
                 <FaDev className="text-2xl  hover:text-secondary" />
