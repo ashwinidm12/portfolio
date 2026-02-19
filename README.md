@@ -3,7 +3,7 @@
 Welcome to my portfolio repository! This project showcases my work as a **MERN Stack Developer** and highlights my projects, skills, and professional achievements.
 
 ## 🖥️ Live Portfolio  
-Check out the live version here: [**Ashwini D M Portfolio**](http://localhost:5173/fullstock31/)
+Check out the live version here: [**Ashwini D M Portfolio**](https://ashwinidm12.github.io/portfolio/)
 
 ---
 
